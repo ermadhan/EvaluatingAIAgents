@@ -14,7 +14,7 @@ def get_openai_api_key():
 
 def get_phoenix_endpoint():
     load_env()
-    phoenix_endpoint = os.getenv("PHOENIX_COLLECTOR_ENDPOINT")
+    phoenix_endpoint = "https://s172-29-84-67p6006.lab-aws-production.deeplearning.ai/"
     return phoenix_endpoint
 
 
